@@ -304,10 +304,10 @@ footer ul a {
   margin-bottom: 20px;
 }
 .mobile .icon-container {
-  height: 50%;
+  height: 325px;
   width: 100%;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .icon {
   height: 100%;
@@ -427,6 +427,16 @@ footer ul a {
   opacity: .9;
 }
 .date-img:hover img {
+  filter: none;
+  -webkit-filter: none;
+}
+.mobile.ios .date-img .date {
+  opacity: 1;
+}
+.mobile.ios .date-img .underline {
+  opacity: .9;
+}
+.mobile.ios .date-img img {
   filter: none;
   -webkit-filter: none;
 }
